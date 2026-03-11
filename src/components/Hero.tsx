@@ -32,9 +32,7 @@ export default function Hero() {
                 <p className="font-bold text-dark text-sm">HUB Közösségi Tér</p>
                 <p className="text-xs text-gray-500">Debrecen szívében, diszkrét és biztonságos környezetben várom Önöket.</p>
               </div>
-            </div>
-
-            </div>
+          </div>
 
           {/* Lead Capture Form */}
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative">
@@ -72,9 +70,6 @@ export default function Hero() {
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
-            </div>
-
-            
             </div>
           </div>
 
