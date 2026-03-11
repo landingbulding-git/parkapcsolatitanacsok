@@ -4,11 +4,11 @@ export default function Founder() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative z-10 max-w-md mx-auto lg:mx-0">
+            <div className="relative z-10 max-w-md mx-auto lg:mx-0">
               <img 
                 src="https://pjvq1reclhljbaqu.public.blob.vercel-storage.com/464688942_875451487900874_2304038547068012444_n-Photoroom.png" 
                 alt="Lévai Lívia" 
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain -scale-x-100"
                 referrerPolicy="no-referrer"
               />
             </div>
