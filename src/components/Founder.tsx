@@ -1,8 +1,8 @@
 export default function Founder() {
   return (
-    <section className="py-20 bg-primary text-white overflow-hidden">
+    <section className="pt-20 pb-0 bg-primary text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-end">
           <div className="relative">
             <div className="relative z-10 max-w-md mx-auto lg:mx-0">
               <img 
