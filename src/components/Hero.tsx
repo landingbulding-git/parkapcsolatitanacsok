@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <section className="relative bg-slate-50 pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-1 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           
-          {/* Left Column: Copy & Form */}
+          {/* Left Column: Copy */}
           <div className="max-w-2xl">
             <div className="flex items-center gap-2 mb-6">
               <div className="flex text-yellow-400">
@@ -33,8 +33,22 @@ export default function Hero() {
                 <p className="text-xs text-gray-500">Debrecen szívében, diszkrét és biztonságos környezetben várom Önöket.</p>
               </div>
             </div>
+          </div>
 
-          {/* Lead Capture Form */}
+          {/* Right Column: Visual & Form */}
+          <div className="flex flex-col gap-8 h-full">
+            {/* Image - decreased size */}
+            <div className="relative w-full max-w-md mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl">
+              <img 
+                src="https://pjvq1reclhljbaqu.public.blob.vercel-storage.com/Gemini_Generated_Image_9067zb9067zb9067.png" 
+                alt="Párkapcsolat" 
+                className="w-full h-full object-cover object-top"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
+            </div>
+
+            {/* Lead Capture Form */}
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 whitespace-nowrap shadow-sm">
                 <Clock size={16} /> Nincs elköteleződés
@@ -57,19 +71,6 @@ export default function Hero() {
                 <span className="flex items-center gap-1"><CheckCircle2 size={14} className="text-green-500" /> 24 órán belüli válasz</span>
                 <span className="flex items-center gap-1"><ShieldCheck size={14} className="text-green-500" /> 100% titoktartás</span>
               </div>
-            </div>
-          </div>
-          </div>
-
-          {/* Right Column: Visual */}
-          <div className="relative hidden lg:block h-full min-h-[400px] w-1/2">
-            <img 
-                src="https://pjvq1reclhljbaqu.public.blob.vercel-storage.com/Gemini_Generated_Image_9067zb9067zb9067.png" 
-                alt="Párkapcsolat" 
-                className="w-full h-full object-cover object-top"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
             </div>
           </div>
 
