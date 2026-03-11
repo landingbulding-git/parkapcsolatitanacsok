@@ -32,7 +32,7 @@ export default function Hero() {
                 <p className="font-bold text-dark text-sm">HUB Közösségi Tér</p>
                 <p className="text-xs text-gray-500">Debrecen szívében, diszkrét és biztonságos környezetben várom Önöket.</p>
               </div>
-          </div>
+            </div>
 
           {/* Lead Capture Form */}
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative">
@@ -64,7 +64,7 @@ export default function Hero() {
           {/* Right Column: Visual */}
           <div className="relative hidden lg:block h-full min-h-[400px] w-1/2">
             <img 
-                src="unnamed (6)-Photoroom.png" 
+                src="https://pjvq1reclhljbaqu.public.blob.vercel-storage.com/Gemini_Generated_Image_9067zb9067zb9067.png" 
                 alt="Párkapcsolat" 
                 className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
