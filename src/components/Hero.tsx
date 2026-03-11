@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative bg-slate-50 pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-1 gap-12 items-center">
           
           {/* Left Column: Copy & Form */}
           <div className="max-w-2xl">
@@ -15,7 +15,7 @@ export default function Hero() {
               <span className="text-sm font-semibold text-gray-700">4.9/5 Csillagos értékelés elégedett ügyfelektől</span>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6 text-dark">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight mb-6 text-dark">
               Találják meg újra a közös hangot <span className="text-primary">3 hónap alatt</span>, és teremtsenek olyan békés otthont, ahol gyermekeik is szeretetben nőhetnek fel.
             </h1>
             
@@ -34,7 +34,9 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Lead Capture Form */}
+            </div>
+
+          {/* Lead Capture Form */}
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 whitespace-nowrap shadow-sm">
                 <Clock size={16} /> Nincs elköteleződés
@@ -59,33 +61,20 @@ export default function Hero() {
               </div>
             </div>
           </div>
+          </div>
 
           {/* Right Column: Visual */}
-          <div className="relative hidden lg:block h-full min-h-[600px]">
-            <div className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://www.parkapcsolatitanacsok.hu/wp-content/uploads/2021/09/parkapcsolatitanacsokhu-levai-livia-v03.jpg" 
-                alt="Lévai Lívia párkapcsolati tanácsadó" 
+          <div className="relative hidden lg:block h-full min-h-[400px] w-1/2">
+            <img 
+                src="unnamed (6)-Photoroom.png" 
+                alt="Párkapcsolat" 
                 className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
             </div>
+
             
-            {/* Infographic Overlays */}
-            <div className="absolute bottom-8 left-8 right-8 space-y-3">
-              <div className="bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg transform -rotate-1 border-l-4 border-primary">
-                <p className="font-bold text-dark flex items-center gap-2">
-                  <ShieldCheck className="text-primary" size={20} />
-                  Diplomás coach és szupervizor
-                </p>
-              </div>
-              <div className="bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg transform rotate-1 border-l-4 border-secondary ml-8">
-                <p className="font-bold text-dark flex items-center gap-2">
-                  <CheckCircle2 className="text-secondary" size={20} />
-                  Gyakorlatias, megoldásközpontú módszertan
-                </p>
-              </div>
             </div>
           </div>
 
