@@ -39,15 +39,11 @@ export default function Closer() {
                   <input type="text" id="c-name" className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all" placeholder="Teljes név" required />
                 </div>
                 <div>
-                  <label htmlFor="c-email" className="block text-sm font-medium text-gray-700 mb-1">E-mail cím</label>
-                  <input type="email" id="c-email" className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all" placeholder="email@cim.hu" required />
-                </div>
-                <div>
                   <label htmlFor="c-phone" className="block text-sm font-medium text-gray-700 mb-1">Telefonszám</label>
                   <input type="tel" id="c-phone" className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all" placeholder="+36 30 123 4567" required />
                 </div>
                 <button type="submit" className="w-full bg-secondary hover:bg-secondary-hover text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 mt-4">
-                  Kérem a tájékoztatót!
+                  Kérem az ingyenes visszahívást
                 </button>
               </form>
               

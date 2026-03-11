@@ -6,7 +6,7 @@ export default function Founder() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative z-10 max-w-md mx-auto lg:mx-0">
               <img 
-                src="https://www.parkapcsolatitanacsok.hu/wp-content/uploads/2021/09/parkapcsolatitanacsokhu-levai-livia-v04.jpg" 
+                src="https://pjvq1reclhljbaqu.public.blob.vercel-storage.com/464688942_875451487900874_2304038547068012444_n-Photoroom.png" 
                 alt="Lévai Lívia" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

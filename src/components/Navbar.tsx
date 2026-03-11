@@ -8,7 +8,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-4">
           <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-secondary hover:bg-secondary-hover text-white font-bold py-2 px-6 rounded-full shadow-md transition-all transform hover:-translate-y-0.5 text-sm sm:text-base">
-            Időpontot foglalok
+            Kérem az ingyenes visszahívást
           </button>
         </div>
       </div>

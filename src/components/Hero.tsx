@@ -36,11 +36,11 @@ export default function Hero() {
           </div>
 
           {/* Right Column: Visual & Form */}
-          <div className="flex flex-col gap-8 h-full">
+          <div className="flex flex-col gap-8 h-full max-w-md mx-auto w-full">
             {/* Image - decreased size */}
-            <div className="relative w-full max-w-md mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative w-full h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://pjvq1reclhljbaqu.public.blob.vercel-storage.com/Gemini_Generated_Image_9067zb9067zb9067.png" 
+                src="https://parkapcsolatitanacsok.hu/wp-content/uploads/2021/09/parkapcsolatitanacsokhu-levai-livia-v04.jpg" 
                 alt="Párkapcsolat" 
                 className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
@@ -49,7 +49,7 @@ export default function Hero() {
             </div>
 
             {/* Lead Capture Form */}
-            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative">
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative w-full">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 whitespace-nowrap shadow-sm">
                 <Clock size={16} /> Nincs elköteleződés
               </div>
@@ -64,7 +64,7 @@ export default function Hero() {
                   <input type="tel" id="phone" className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all" placeholder="+36 30 123 4567" required />
                 </div>
                 <button type="submit" className="w-full bg-secondary hover:bg-secondary-hover text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
-                  Kérem a tájékoztatót!
+                  Kérem az ingyenes visszahívást
                 </button>
               </form>
               <div className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-gray-500 font-medium">
